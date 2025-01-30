@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "https://temp-fastapi-backend.onrender.com//api/:path*"
+        destination: "https://temp-fastapi-backend.onrender.com/api/:path*"
       }
     ]
   }
